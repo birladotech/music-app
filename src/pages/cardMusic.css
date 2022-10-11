@@ -1,0 +1,67 @@
+.card {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  margin: 20px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+}
+
+.bottom_card {
+  width: 100%;
+  position: absolute;
+  bottom: -15px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f1f1f1;
+}
+
+.card-album,
+.card-album img {
+  border-radius: 50%;
+  width: 231px;
+  height: 232px;
+  cursor: pointer;
+}
+
+.mousseOv {
+  display: none;
+}
+.mousseOver {
+  box-sizing: border-box;
+  display: flex;
+  width: 220px;
+  height: 130px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mousseOver img {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+
+/* audio  */
+footer{
+    position:fixed;
+    bottom: -10px;
+    left: 0;
+    z-index: 0;
+    width: 100vw;
+    margin-top: 110px;
+}
+
+footer audio{
+    width: 100%;
+}
+
+.progress-bar{
+  background-color: transparent !important;
+}

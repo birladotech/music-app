@@ -1,0 +1,30 @@
+.cool-bg {
+  background: url("../assets/images/cool-background.png");
+  height: 100vh;
+  padding: 5px;
+}
+
+.payment-card {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.payement_card img {
+  width: 320px;
+  height: 320px;
+}
+
+.paypal {
+  width: 320px;
+  margin: 10px auto;
+}
+
+.moncash img {
+  width: 10rem;
+}
+.moncash {
+  width: 320px;
+  margin: 10px auto;
+  background: white;
+}
